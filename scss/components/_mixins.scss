@@ -3,3 +3,10 @@
 @mixin colorChanger {
  background: linear-gradient(45deg,rgba($primary,0.90),rgba($secondary,0.90));
 }
+
+@mixin positionAbsolute {
+ position: absolute;
+ top:50%;
+ left:50%;
+ transform: translate(-50%,-50%);
+}

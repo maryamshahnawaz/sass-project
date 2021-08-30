@@ -1,0 +1,8 @@
+@use "../components/mixins" as *;
+.header {
+ // @include colorChanger;
+ background-color: #258360;
+ padding:10rem 0 0 0;
+ width:100%;
+ height:100%;
+}

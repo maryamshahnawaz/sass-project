@@ -1,0 +1,25 @@
+@use "../customStyling" as *;
+.intro-section {
+ margin-bottom: 1rem;
+ font-family: 'Poppins',sans-serif;
+
+ &--title {
+  text-transform: capitalize;
+  display: inline-block;
+  font-weight: 700;
+ }
+
+  &--description {
+  font-size: 1rem;
+  font-weight: 400;
+  display: block;
+  margin-top: 1.2rem;
+  @include media-breakpoint-up(lg){
+   font-size: 1.3rem;
+   display:inline-block;
+  } 
+
+  
+ }
+ 
+}

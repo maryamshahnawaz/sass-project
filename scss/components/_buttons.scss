@@ -1,10 +1,16 @@
 @use "../customStyling" as *;
+@use "../components/mixins" as *;
 .btn-gradient {
+ @include media-breakpoint-down(sm){
+  display:none;
+ }
  padding:0.6rem 4rem 0.6rem 1.2rem;
  margin: 0;
- font-weight:500;
+ font-weight:600;
  position: relative;
  border:0.1rem solid rgba($white,0.7);
+ background-color: $white;
+
 
  span {
   position: absolute;
@@ -14,6 +20,18 @@
   background: $primary;
   width:2.5rem;
   height:2.5rem;
- border-radius: 50%;
+  border-radius: 50%;
+ i {
+  font-size: 1rem;
+  line-height: 2.5rem;
+ }
+
+ }
+ &:hover {
+ @include colorChanger;
+ color:$white;
+ span {
+  background-color: rgba;
+  }
  }
 }

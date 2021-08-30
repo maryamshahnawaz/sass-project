@@ -5,14 +5,18 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <link rel="stylesheet" href="./assets/css/style.css">
+ <link rel="stylesheet" href="./assets/css/fontawesome.css">
+ <!-- google font -->
+ <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+  rel="stylesheet">
  <title>Bootstrap website</title>
 </head>
 <body>
  <!-- NAV BAR SECTION -->
- <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow fixed-top">
   <div class="container">
-   <a class="navbar-brand text-white fw-bold" href="#">
-    Store Flip
+   <a class="navbar-brand text-white fw-bold logo" href="#">
+    MS Agency
    </a>
    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,18 +38,79 @@
       <a class="nav-link" href="#">portfolio</a>
      </li>
      <li class="nav-item">
-      <a class="nav-link" href="#">testimonials</a>
-     </li>
-     <li class="nav-item">
       <a class="nav-link" href="#">contact</a>
      </li>
     </ul>
-    <button type="button" class="rounded-pill btn-gradient">+ 0123456789
-     <span><i class="fas fa-phone-alt"></i></span>
+    <button type="button" class="rounded-pill btn-gradient">0123456789
+     <span class="text-white">
+      <i class="fas fa-phone-alt "></i>
+     </span>
     </button>
    </div>
   </div>
  </nav>
+ <!-- header section -->
+ <header id="header" class="header">
+  <div class="container">
+   <div class="row align-items-center text-white">
+    <div class="col-md-6">
+     <div class="intro-section">
+      <h1 class="display-2 intro-section--title">
+       Creative Digital Agency
+      </h1>
+      <p class="lh-base intro-section--description fw-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+       Quidem
+       vitae,
+       explicabo
+       veniam assumenda voluptate
+       quod animi eum omnis magnam quo iusto in debitis aspernatur mollitia.</p>
+      <button type="button" class="rounded-pill btn-gradient">
+       Get In Touch
+       <span class="text-white">
+        <i class="fas fa-arrow-right"></i>
+       </span>
+      </button>
+     </div>
+    </div>
+
+    <div class="col-md-6 text-end">
+     <div class="header-image-box">
+      <img src="./assets/illustrations/Javascript_Two Color.png" alt="" class="img-fluid">
+     </div>
+    </div>
+   </div>
+  </div>
+
+ </header>
+ <!-- SVG -->
+ <section class="svg ">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+   <path fill="#258360" fill-opacity="1"
+    d="M0,256L0,224L288,224L288,160L576,160L576,96L864,96L864,288L1152,288L1152,96L1440,96L1440,0L1152,0L1152,0L864,0L864,0L576,0L576,0L288,0L288,0L0,0L0,0Z">
+   </path>
+  </svg>
+ </section>
+
+ <section id="about" class="about pt-5">
+  <div class="container">
+   <div class="row text-left">
+    <div class="col-md-6 about-section pt-5">
+     <h1 class="display-3 fw-bold about-section__heading">
+      About Us
+     </h1>
+     <p class="lh-base about-section__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, odio
+      minima sapiente quam minus
+      aperiam error
+      facilis vitae non molestias cumque iure tempore eligendi labore. sapiente quam minus
+      aperiam error
+      facilis vitae non molestias cumque iure tempore eligendi labore. </p>
+    </div>
+    <div class="col-md-6 text-end">
+     <img src="./assets/illustrations/Web Developer_Monochromatic.png" alt="" class="img-fluid">
+    </div>
+   </div>
+  </div>
+ </section>
 
  <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
