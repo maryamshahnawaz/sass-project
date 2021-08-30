@@ -1,0 +1,15 @@
+@use "../customStyling" as *;
+@use "../components/mixins" as *;
+.navbar-custom {
+@include colorChanger;
+
+li {
+ padding:0 1rem;
+
+ a {
+  color:$white !important;
+  text-transform: capitalize;
+  font-weight: 600;
+ }
+}
+}

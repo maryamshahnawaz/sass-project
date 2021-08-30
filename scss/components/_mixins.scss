@@ -1,0 +1,5 @@
+@use "../customStyling" as *;
+
+@mixin colorChanger {
+ background: linear-gradient(45deg,rgba($primary,0.90),rgba($secondary,0.90));
+}
