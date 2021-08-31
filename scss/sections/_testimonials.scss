@@ -1,0 +1,6 @@
+@use "../customStyling" as *;
+@use "../components/mixins" as *;
+.testimonials {
+ @include colorChanger;
+ padding: 5rem 0 0 0;
+}

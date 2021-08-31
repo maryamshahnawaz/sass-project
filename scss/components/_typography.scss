@@ -21,3 +21,14 @@
  }
 }
 
+
+.bottom-line::after{
+  content:"";
+ width: 9rem;
+ height:0.2rem;
+ padding-top: 0.5rem;
+ display:block;
+ margin: 0 auto;
+ background-color:$primary;
+ margin-bottom: 1rem;
+}

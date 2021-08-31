@@ -1,130 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
- <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="./assets/css/style.css">
- <link rel="stylesheet" href="./assets/css/fontawesome.css">
- <!-- google font -->
- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
-  rel="stylesheet">
- <title>Bootstrap website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/fontawesome.css">
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <title>Bootstrap website</title>
 </head>
 <body>
- <!-- NAV BAR SECTION -->
- <nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow fixed-top">
-  <div class="container">
-   <a class="navbar-brand text-white fw-bold logo" href="#">
-    MS Agency
-   </a>
-   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-   </button>
-   <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-    <ul class="navbar-nav">
-     <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Home</a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="#">About</a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="#">Services</a>
-     </li>
-
-     <li class="nav-item">
-      <a class="nav-link" href="#">portfolio</a>
-     </li>
-     <li class="nav-item">
-      <a class="nav-link" href="#">contact</a>
-     </li>
-    </ul>
-    <button type="button" class="rounded-pill btn-gradient">0123456789
-     <span class="text-white">
-      <i class="fas fa-phone-alt "></i>
-     </span>
-    </button>
-   </div>
-  </div>
- </nav>
- <!-- header section -->
- <header id="header" class="header">
-  <div class="container">
-   <div class="row align-items-center text-white">
-    <div class="col-md-6">
-     <div class="intro-section">
-      <h1 class="display-2 intro-section--title">
-       Creative Digital Agency
-      </h1>
-      <p class="lh-base intro-section--description fw-light">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-       Quidem
-       vitae,
-       explicabo
-       veniam assumenda voluptate
-       quod animi eum omnis magnam quo iusto in debitis aspernatur mollitia.</p>
-      <button type="button" class="rounded-pill btn-gradient">
-       Get In Touch
-       <span class="text-white">
-        <i class="fas fa-arrow-right"></i>
-       </span>
+  <!-- NAV BAR SECTION -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-white fw-bold logo" href="#">
+        MS Agency
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-     </div>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact</a>
+          </li>
+        </ul>
+        <button type="button" class="rounded-pill btn-gradient">0123456789
+          <span class="text-white">
+            <i class="fas fa-phone-alt "></i>
+          </span>
+        </button>
+      </div>
+    </div>
+  </nav>
+  <!-- header section -->
+  <header id="header" class="header">
+    <div class="container">
+      <div class="row align-items-center text-white">
+        <div class="col-md-6">
+          <div class="intro-section">
+            <h1 class="display-2 intro-section--title">
+              Creative Digital Agency
+            </h1>
+            <p class="lh-base intro-section--description fw-light">Lorem ipsum dolor sit amet consectetur, adipisicing
+              elit.
+              Quidem
+              vitae,
+              explicabo
+              veniam assumenda voluptate
+              quod animi eum omnis magnam quo iusto in debitis aspernatur mollitia.</p>
+            <button type="button" class="rounded-pill btn-gradient">
+              Get In Touch
+              <span class="text-white">
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-6 text-end">
+          <div class="header-image-box">
+            <img src="./assets/illustrations/Javascript_Two Color.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="col-md-6 text-end">
-     <div class="header-image-box">
-      <img src="./assets/illustrations/Javascript_Two Color.png" alt="" class="img-fluid">
-     </div>
-    </div>
-   </div>
-  </div>
-
- </header>
- <!-- SVG -->
- <section class="svg ">
+  </header>
+  <!-- SVG -->
+  <!-- <section class="svg ">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
    <path fill="#258360" fill-opacity="1"
     d="M0,224L48,202.7C96,181,192,139,288,149.3C384,160,480,224,576,245.3C672,267,768,245,864,197.3C960,149,1056,75,1152,80C1248,85,1344,171,1392,213.3L1440,256L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
    </path>
   </svg>
- </section>
+ </section> -->
 
- <!-- about -->
- <section id="about" class="about pt-5">
-  <div class="container">
-   <div class="row text-left">
-    <div class="col-md-6 about-section pt-5">
-     <h1 class="display-3 fw-bold about-section__heading">
-      About Us
-     </h1>
-     <p class="lh-base about-section__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, odio
-      minima sapiente quam minus
-      aperiam error
-      facilis vitae non molestias cumque iure tempore eligendi labore. sapiente quam minus
-      aperiam error
-      facilis vitae non molestias cumque iure tempore eligendi labore. </p>
+  <!-- about -->
+  <section id="about" class="about pt-5">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-6 about-section">
+          <h1 class="display-3 fw-bold about-section__heading">
+            About Us
+          </h1>
+          <p class="lh-lg about-section__paragraph fw-light">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Alias, odio
+            minima sapiente quam minus
+            aperiam error
+            facilis vitae non molestias cumque iure tempore eligendi labore. sapiente quam minus
+            aperiam error
+            facilis vitae non molestias cumque iure tempore eligendi labore. </p>
+        </div>
+        <div class="col-md-6 text-end">
+          <img src="./assets/illustrations/Web Developer_Monochromatic.png" alt="" class="img-fluid">
+        </div>
+      </div>
     </div>
-    <div class="col-md-6 text-end">
-     <img src="./assets/illustrations/Web Developer_Monochromatic.png" alt="" class="img-fluid">
+  </section>
+
+
+  <section id="services" class="services">
+    <div class="container">
+      <div class="row text-center">
+        <h1 class="display-3 fw-bold">Services</h1>
+        <div class="bottom-line mb-1"></div>
+      </div>
     </div>
-   </div>
-  </div>
- </section>
+    <div class="container">
+      <!-- one -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
+          <div class="services__content">
+            <div class="icon d-block fas fa-paper-plane"></div>
+            <h3 class="display-3--title mt-1">
+              Marketing
+            </h3>
+            <p class="lh-lg fw-light">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae repellat nemo ipsa inventore, placeat
+              nostrum
+              veritatis corrupti dignissimos necessitatibus, amet voluptatibus optio quasi omnis qui nesciunt, illo
+              architecto.
+            </p>
+            <button type="button" class="rounded-pill btn-gradient">
+              Get In Touch
+              <span class="text-white">
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4 text-end  mt-5">
+          <div class="services__picture">
+            <img src="./assets/illustrations/seo-optimization.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
 
- <!-- SVG -->
- <section class="svg ">
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-   <path fill="#258360" fill-opacity="1"
-    d="M0,160L0,128L288,128L288,32L576,32L576,192L864,192L864,64L1152,64L1152,224L1440,224L1440,320L1152,320L1152,320L864,320L864,320L576,320L576,320L288,320L288,320L0,320L0,320Z">
-   </path>
-  </svg>
+      <!-- two -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4 text-end mr-5">
+          <div class="services__picture text-start">
+            <img src="./assets/illustrations/undraw_stripe_payments_o7aw.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+          <div class="services__content">
+            <div class="icon d-block fas fa-paper-plane"></div>
+            <h3 class="display-3--title mt-1">
+              Marketing
+            </h3>
+            <p class="lh-lg fw-light">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae repellat nemo ipsa inventore, placeat
+              nostrum
+              veritatis corrupti dignissimos necessitatibus, amet voluptatibus optio quasi omnis qui nesciunt, illo
+              architecto.
+            </p>
+            <button type="button" class="rounded-pill btn-gradient">
+              Get In Touch
+              <span class="text-white">
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
 
- </section>
+      </div>
+
+      <!-- three -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-5">
+          <div class="services__content">
+            <div class="icon d-block fas fa-paper-plane"></div>
+            <h3 class="display-3--title mt-1">
+              Marketing
+            </h3>
+            <p class="lh-lg fw-light">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae repellat nemo ipsa inventore, placeat
+              nostrum
+              veritatis corrupti dignissimos necessitatibus, amet voluptatibus optio quasi omnis qui nesciunt, illo
+              architecto.
+            </p>
+            <button type="button" class="rounded-pill btn-gradient">
+              Get In Touch
+              <span class="text-white">
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4 text-end  mt-5">
+          <div class="services__picture">
+            <img src="./assets/illustrations/web-design.png" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- four -->
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4 text-end mr-5">
+          <div class="services__picture">
+            <img src="./assets/illustrations/ecommorce.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ">
+          <div class="services__content">
+            <div class="icon d-block fas fa-paper-plane"></div>
+            <h3 class="display-3--title mt-1">
+              Marketing
+            </h3>
+            <p class="lh-lg fw-light">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae repellat nemo ipsa inventore, placeat
+              nostrum
+              veritatis corrupti dignissimos necessitatibus, amet voluptatibus optio quasi omnis qui nesciunt, illo
+              architecto.
+            </p>
+            <button type="button" class="rounded-pill btn-gradient">
+              Get In Touch
+              <span class="text-white">
+                <i class="fas fa-arrow-right"></i>
+              </span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonials -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+      <div class="row text-center text-white">
+        <h1 class="display-3 fw-bold">Testimonials</h1>
+        <hr class="mx-auto" style="width:10rem; height:5px;">
+      </div>
+
+      <div class="row align-items-center text-white">
+        <!-- bootstrap carousal -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <!-- slide testimonials -->
+          <div class="carousel-inner">
+            <!-- first testimonial -->
+            <div class="carousel-item active">
+              <div class="testimonials__card">
+                <p class="lead lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+                  nesciunt
+                  similique iure dolorum sapiente tempore natus ab beatae ipsa minus, eum accusamus tempora dolor
+                  consequuntur
+                  <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                </p>
+              </div>
+              <!-- client image -->
+              <div class="testimonials__image">
+                <img src="./assets/images/men.jpeg" alt="client-image" class="image-fluid">
+              </div>
+              <!-- client job -->
+              <div class="testimonials__job">
+                <h3 class="display-3">John Doe</h3>
+                <p class="fw-light">CEO & Founder</p>
+              </div>
+            </div>
+            <!-- second testimonial -->
+            <div class="carousel-item">
+              <div class="testimonials__card">
+                <p class="lead lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+                  nesciunt
+                  similique iure dolorum sapiente tempore natus ab beatae ipsa minus, eum accusamus tempora dolor
+                  consequuntur
+                  <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                </p>
+              </div>
+              <!-- client image -->
+              <div class="testimonials__image">
+                <img src="./assets/images/men.jpeg" alt="client-image" class="image-fluid">
+              </div>
+              <!-- client job -->
+              <div class="testimonials__job">
+                <h3 class="display-3">John Doe</h3>
+                <p class="fw-light">CEO & Founder</p>
+              </div>
+            </div>
+            <!-- third testimonial -->
+            <div class="carousel-item">
+              <div class="testimonials__card">
+                <p class="lead lh-lg">
+                  <i class="fas fa-quote-left"></i>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
+                  nesciunt
+                  similique iure dolorum sapiente tempore natus ab beatae ipsa minus, eum accusamus tempora dolor
+                  consequuntur
+                  <i class="fas fa-quote-right"></i>
+                <div class="ratings p-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                </p>
+              </div>
+              <!-- client image -->
+              <div class="testimonials__image">
+                <img src="./assets/images/men.jpeg" alt="client-image" class="image-fluid">
+              </div>
+              <!-- client job -->
+              <div class="testimonials__job">
+                <h3 class="display-3">John Doe</h3>
+                <p class="fw-light">CEO & Founder</p>
+              </div>
+            </div>
 
 
 
- <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
+
+
+
+          </div>
+          <div class="text-center">
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-left" type="button"></button>
+
+            <button class="btn btn-outline-light fas fa-long-arrow-alt-right" type="button"
+              data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+  </section>
+
+  <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
 </html>
