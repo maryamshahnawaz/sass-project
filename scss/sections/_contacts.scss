@@ -1,0 +1,31 @@
+@use "../customStyling" as *;
+@use "../components/mixins" as *;
+.contact {
+ @include colorChanger;
+ padding: 3rem 0 2rem 0;;
+ color:$white;
+width:100%;
+margin: 0 auto;
+
+
+
+input[type="text"]{
+ padding:1.5rem;
+}
+input[type="email"]{
+ padding:1.5rem;
+}
+
+.btn {
+ background-color: $white;
+ padding:0.75rem 5rem;
+ margin-top: 1rem;
+ display:inline-block;
+ 
+ &:hover {
+  @include colorChanger;
+  color:$white;
+ }
+}
+
+}
