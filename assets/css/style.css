@@ -11201,6 +11201,9 @@ textarea.form-control-lg {
   width: 100%;
   height: 100%;
 }
+.header p {
+  font-size: 1.2rem;
+}
 
 .about .about-section {
   padding-top: 3rem;
@@ -11279,7 +11282,7 @@ textarea.form-control-lg {
 .portfolio .portfolio-box .portfolio-info {
   opacity: 0;
   visibility: hidden;
-  background-color: rgba(4, 74, 41, 0.3);
+  background-color: rgba(4, 74, 41, 0.6);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -11350,7 +11353,7 @@ textarea.form-control-lg {
 
 .contact {
   background: linear-gradient(45deg, rgba(4, 74, 41, 0.9), rgba(32, 201, 151, 0.9));
-  padding: 3rem 0 2rem 0;
+  padding: 3rem 0 6rem 0;
   color: #fff;
   width: 100%;
   margin: 0 auto;
@@ -11441,6 +11444,10 @@ footer .copy-right {
   font-size: 1.3rem;
   text-transform: capitalize;
   text-align: center;
+  font-weight: bold;
+  background: -webkit-linear-gradient(#07d251, rgba(16, 50, 29, 0.646));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */

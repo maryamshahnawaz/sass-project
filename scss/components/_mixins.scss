@@ -16,3 +16,10 @@
  transition-property: all;
  
 }
+
+@mixin textGradient {
+ font-weight: bold;
+  background: -webkit-linear-gradient(rgb(7, 210, 81), rgba(16, 50, 29, 0.646));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
