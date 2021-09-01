@@ -4,9 +4,11 @@
  @include media-breakpoint-down(sm){
   display:none;
  }
- padding:0.6rem 4rem 0.6rem 1.2rem;
+ padding:0.7rem 4rem 0.7rem 1.2rem;
  margin: 0;
  font-weight:600;
+ border-radius: 3px;
+
  position: relative;
  border:0.1rem solid rgba($white,0.7);
  background-color: $white;
@@ -33,8 +35,6 @@
  @include colorChanger;
  color:$white;
 
- // span {
- //  background-color: rgba;
- //  }
+ 
  }
 }

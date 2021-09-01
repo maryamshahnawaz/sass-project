@@ -57,10 +57,10 @@
       <div class="row align-items-center text-white">
         <div class="col-md-6">
           <div class="intro-section">
-            <h1 class="display-3 intro-section--title anim">
+            <h1 class="display-3 intro-section--title">
               <span>Creative Digital</span><span>Agency</span>
             </h1>
-            <p class="lh-base intro-section--description fw-light anim">Lorem ipsum dolor sit amet consectetur,
+            <p class="lh-base intro-section--description fw-light">Lorem ipsum dolor sit amet consectetur,
               adipisicing
               elit.
               Quidem
@@ -68,7 +68,7 @@
               explicabo
               veniam assumenda voluptate
               quod animi eum omnis magnam quo iusto in debitis aspernatur mollitia.</p>
-            <button type="button" class=" btn-gradient anim" id="cta">
+            <button type="button" class=" btn-gradient">
               Get In Touch
               <span class="text-white">
                 <i class="fas fa-arrow-right"></i>
@@ -677,15 +677,6 @@
 
   </footer>
 
-
-
-  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js"></script>
-  <script>
-    let timeLine = gsap.timeline({ defaults: { duration: 1 } });
-    timeLine.from(".anim", { y: -50, stagger: .6, opacity: 0 })
-      .to(rule, { duration: 1.8, cssRule: { scaleY: 0 } }, "-=2.2")
-      .from(".header-image-box", { y: 30, opacity: 0 }, "-=.5")
-  </script>
 
   <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
 </body>
