@@ -18,12 +18,15 @@ input[type="email"]{
 
 .btn {
  background-color: $white;
- padding:0.75rem 5rem;
+ padding:1.2rem 5rem;
  margin-top: 1rem;
  display:inline-block;
+ margin-left: auto;
+ margin-right: auto;
+ font-size: 1.2rem;
  
  &:hover {
-  @include colorChanger;
+  background: $secondary;
   color:$white;
  }
 }

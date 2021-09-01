@@ -10,6 +10,7 @@
  position: relative;
  border:0.1rem solid rgba($white,0.7);
  background-color: $white;
+ transition: all 0.6s;
 
 
  span {
@@ -21,6 +22,7 @@
   width:2.5rem;
   height:2.5rem;
   border-radius: 50%;
+  
  i {
   font-size: 1rem;
   line-height: 2.5rem;
@@ -30,8 +32,9 @@
  &:hover {
  @include colorChanger;
  color:$white;
- span {
-  background-color: rgba;
-  }
+
+ // span {
+ //  background-color: rgba;
+ //  }
  }
 }

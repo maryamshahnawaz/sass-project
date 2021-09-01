@@ -28,7 +28,7 @@
 
    .icon {
     font-size: 1.5rem;
-    color:$primary;
+    color:$secondary;
 
     @include media-breakpoint-up(lg){
     font-size: 2.5rem;
@@ -37,6 +37,7 @@
   }
   &__picture {
    max-width:100%;
+   margin-top: 3rem;
    @include media-breakpoint-down(sm){
    margin-top: 0;
    }
