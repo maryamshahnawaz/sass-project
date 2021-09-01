@@ -11378,6 +11378,9 @@ textarea.form-control-lg {
 footer {
   padding: 1rem 0;
 }
+footer .footer-contact {
+  padding: 2rem 0;
+}
 footer .contact-box {
   position: relative;
 }
@@ -11414,6 +11417,30 @@ footer .contact-box__info--subtitle {
   footer .contact-box__info--subtitle {
     font-size: 1rem;
   }
+}
+footer .footer-links {
+  background: linear-gradient(45deg, rgba(4, 74, 41, 0.9), rgba(32, 201, 151, 0.9));
+}
+footer .footer-links .list-info {
+  display: block;
+  list-style: none;
+  position: relative;
+}
+footer .footer-links .list-info li {
+  margin-bottom: 0.5rem;
+}
+footer .footer-links .list-info li a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer-links .list-info li a:hover {
+  color: #044a29;
+}
+footer .copy-right {
+  color: #000;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

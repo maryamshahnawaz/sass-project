@@ -2,6 +2,10 @@
 @use "../components/mixins" as *;
 footer {
  padding:1rem 0;
+ 
+ .footer-contact {
+  padding: 2rem 0;
+ }
 
  .contact-box {
   position: relative;
@@ -37,5 +41,35 @@ footer {
   }
  }
 
+}
+
+.footer-links {
+ @include colorChanger;
+ .list-info {
+  display: block;
+  list-style: none;
+  position: relative;
+
+  li {
+    margin-bottom: 0.5rem;
+    
+    a {
+      text-decoration: none;
+      color:$white;
+      
+
+      &:hover {
+        color:$primary;
+      }
+    }
+  }
+}
+}
+
+.copy-right {
+ color:$black;
+ font-size: 1.3rem;
+ text-transform: capitalize;
+ text-align: center;
 }
 }
